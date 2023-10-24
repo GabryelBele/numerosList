@@ -13,7 +13,6 @@ public class NumController {
 
     @GetMapping
     public List<Integer> getNumbers() {
-        // Crie uma lista de números inteiros
         List<Integer> numbers = new ArrayList<>();
         numbers.add(1);
         numbers.add(2);
